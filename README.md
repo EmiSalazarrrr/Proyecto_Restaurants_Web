@@ -1,16 +1,43 @@
-# React + Vite
+# Restaurants
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Integrantes
+- **Cortez Sarmienta Gael Alexandro**
+- **Salazar Figueroa Joel Emiliano**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Descripción del Proyecto
 
-## React Compiler
+Sistema de gestión para restaurantes que optimiza el proceso de comandas y administración de cuentas, proporcionando una solución eficaz para mejorar la operación diaria del negocio.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Características Principales
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+###  Sistema Dual de Usuarios
+
+#### Para Clientes
+- **Historial de Consumos**: Acceso a un registro completo de pedidos anteriores
+- **Cuenta Personal**: Seguimiento detallado de todo lo consumido
+- **Interfaz Intuitiva**: Experiencia de usuario optimizada
+
+#### Para Administradores
+- **Gestión de Menú**: Configuración completa del catálogo de productos
+- **Alta de Productos**: Registro de alimentos y bebidas
+- **Generación Automática**: Creación de tickets en tiempo real al ingresar pedidos
+- **Panel de Control**: Administración centralizada del sistema
+
+###  Sistema de Promociones Inteligente
+
+- **Configuración Flexible**: El administrador define las reglas de cada promoción
+- **Aplicación Automática**: Las promociones se activan automáticamente según los criterios establecidos
+- **Criterios Personalizables**: Configuración basada en múltiples valores (fecha, hora, monto, productos, etc.)
+- **Integración en Tickets**: Las promociones se reflejan automáticamente en cada ticket elegible
+
+---
+
+## Objetivo
+
+Proporcionar a los restaurantes una herramienta tecnológica que simplifique y optimice sus operaciones, desde la toma de pedidos hasta la gestión de promociones, mejorando tanto la experiencia del cliente como la eficiencia administrativa.
+
+---
