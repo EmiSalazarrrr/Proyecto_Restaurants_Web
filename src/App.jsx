@@ -5,6 +5,9 @@ import MenuAdmin from './pages/MenuAdmin'
 import MenuCliente from './pages/MenuCliente'
 import AgregarTicket from './pages/AgregarTicket'
 import Historial from './pages/Historial'
+import Alimentos from './pages/Alimentos'
+import Tickets from './pages/Tickets'
+import AtenderMesa from './pages/AtenderMesa'
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
         <Route path="/menu-cliente/" element={<MenuCliente />} />
         <Route path="/agregar-ticket/" element={<AgregarTicket />} />
         <Route path="/historial/" element={<Historial />} />
+        <Route path="/alimentos/" element={<Alimentos />} />
+        <Route path="/tickets/" element={<Tickets />} />
+        <Route path="/atender-mesa/" element={<AtenderMesa />} />
       </Routes>
     </BrowserRouter>
   )

@@ -18,8 +18,8 @@ function MenuAdmin() {
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', width: '100%', maxWidth: '500px' }}>
           {[
-            { icon: '🍽️', label: 'Alimentos / Bebidas', href: '#' },
-            { icon: '🪑', label: 'Atender Mesa', href: '#' },
+            { icon: '🍽️', label: 'Alimentos / Bebidas', href: '/alimentos/' },
+            { icon: '🎫', label: 'Tickets', href: '/tickets/' },
             { icon: '🎁', label: 'Configurar Promociones', href: '#' },
             { icon: '📊', label: 'Consultar Métricas Diarias', href: '#' },
           ].map((item, i) => (
